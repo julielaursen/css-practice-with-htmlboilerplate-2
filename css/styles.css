@@ -1,0 +1,15 @@
+body {
+    background-image:url('../img/cat.jpeg');
+    background-repeat:no-repeat
+}
+h1 {
+    color:white; 
+    font-size: 36px;
+}
+p {
+    color: white;
+    font-size:24px;
+}
+.wrapper {
+    background-color: black;
+}
