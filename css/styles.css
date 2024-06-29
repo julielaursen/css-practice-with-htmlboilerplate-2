@@ -3,13 +3,29 @@ body {
     background-repeat:no-repeat
 }
 h1 {
-    color:white; 
-    font-size: 36px;
+    text-align: center;
+    color:yellow; 
+    font-size: 33px;
+    text-transform: lowercase;
 }
 p {
+    font-family: Helvetica, ariel, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
     color: white;
-    font-size:24px;
+    font-size:1.4em;
 }
 .wrapper {
     background-color: black;
+}
+.wrapper a:hover {
+   background: red;
+   text-decoration: underline
+}
+.wrapper a:active {
+    background: blue;
+ }
+.first {
+    text-indent: 100px;
+    font: italic 1.4em Helvetica, arial, sans-serif
 }
