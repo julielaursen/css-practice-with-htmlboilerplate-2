@@ -16,9 +16,11 @@ p {
     font-size:14px
 }
 .wrapper {
+    border: 10px solid #333;
     margin: 50px 100px;
     background-color: white;
     height: 400px;
+    width: 70%;
 }
 .wrapper a:hover {
    background: red;

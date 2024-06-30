@@ -10,3 +10,4 @@ finished videos:
 7 Styling lists
 8 box model
 9 margins and centering
+10 box model borders
