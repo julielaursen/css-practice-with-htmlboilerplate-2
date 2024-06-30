@@ -2,8 +2,47 @@ body {
     background:#524763 url('../img/cat.jpeg') no-repeat;
     margin:0;
 }
+h1, h2 {
+    color: black;
+}
 h1 {
     font-size: 33px;
+}
+p{
+    font-size: 14px;
+}
+p:first-letter {
+ font-weight: bold;   
+}
+p:first-line {
+    font-weight: bold;   
+}
+.warning {
+    color: white;
+    background:red;
+}
+.left-col {
+  float: left;
+  width: 20%;
+  margin: 40px 10% 40px 5%;
+  background: #444;
+}
+.main-col {
+  width: 55%;
+  margin: 40px 5% 40px 5%;
+  background: #666;
+}
+p:before{
+    content: "\00BB";
+    font-size: 20px
+}
+p:after{
+    content: "";
+}
+.floating {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 .nav {
     list-style: none;
@@ -12,16 +51,28 @@ h1 {
 .nav li {
     display: inline;
 }
+.nav li:first-child {
+    font-weight: bold;
+}
+.nav li:last-child {
+    font-weight: bold;
+}
 p {
-    font-size:14px
+    font-size:14px;
 }
 .wrapper {
     border: 10px solid #333;
-    margin: 50px 100px;
-    background-color: white;
-    height: 400px;
-    width: 70%;
+    margin: 50px auto;
+    background: white;
+    width: 80%;
+    max-width: 800px;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 40px 20px;
 }
+.wrapper a {
+    text-decoration: none
+ }
 .wrapper a:hover {
    background: red;
    text-decoration: underline
@@ -29,4 +80,20 @@ p {
 .wrapper a:active {
     background: blue;
  }
+ .wrapper:hover {
+    background: whitesmoke;
+ }
 
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
