@@ -1,5 +1,5 @@
 body {
-    background:#524763 url('../img/cat.jpeg') no-repeat;
+    background:#524763;
     margin:0;
 }
 h1, h2 {
@@ -8,8 +8,21 @@ h1, h2 {
 h1 {
     font-size: 33px;
 }
+header {
+    width: 55%;
+    margin: 20px auto
+}
+.logo a {
+    display: block;
+    width: 287px;
+    height: 100px;
+    background: url(../img/logo.png) no-repeat;
+}
 p{
     font-size: 14px;
+}
+p > a {
+    font-weight: bold;
 }
 p:first-letter {
  font-weight: bold;   
@@ -48,18 +61,16 @@ p:after{
     list-style: none;
     padding: 0;
 }
-.nav li {
+.nav > li {
     display: inline;
 }
-.nav li:first-child {
-    font-weight: bold;
+.nav > li > ul > li{
+ background: blue;
 }
 .nav li:last-child {
     font-weight: bold;
 }
-p {
-    font-size:14px;
-}
+
 .wrapper {
     border: 10px solid #333;
     margin: 50px auto;
